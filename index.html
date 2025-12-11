@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in or sign in pojalusta</title>
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/minimize.css">
+</head>
+<body>
+    <div class="background">
+        <div class="modal">
+            <h1 class="modal-title">Create account:</h1>
+            
+            <form class="form">
+                <input 
+                    type="email" 
+                    class="form-input" 
+                    placeholder="E-mail" 
+                    required
+                >
+                <input 
+                    type="password" 
+                    class="form-input" 
+                    placeholder="passwd" 
+                    required
+                >
+                
+                <label class="checkbox-label">
+                    <input type="checkbox" class="checkbox" required>
+                    <span>I have read and agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></span>
+                </label>
+                
+                <button type="submit" class="btn-primary">Create Account</button>
+            </form>
+            
+            <div class="divider">
+                <span>or sign up with social media</span>
+            </div>
+            
+            <div class="social-buttons">
+                <button class="btn-social btn-facebook">
+                    <span>f</span> Facebook
+                </button>
+                <button class="btn-social btn-twitter">
+                    <span>X</span> Twitter
+                </button>
+                <button class="btn-social btn-google">
+                    <span>G</span> Google
+                </button>
+            </div>
+            
+            <div class="footer">
+                Already have an account? <a href="#" class="sign-in-link">Sign in</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
